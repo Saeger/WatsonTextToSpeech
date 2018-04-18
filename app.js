@@ -2,15 +2,12 @@ var TextToSpeechV1 = require('watson-developer-cloud/text-to-speech/v1');
 var fs = require('fs');
 
 var text_to_speech = new TextToSpeechV1({
-  username: 'f64031cf-6df4-4555-905a-33e40f26a3cd',
-  password: 'acNXOVsM62UH'
+  username: '#USERNAME',
+  password: '#PASSWORD'
 });
 
 var params = {
-
-  //text: "Olá Roberto Arteiro, tudo bem com você?",
-  //text: "Seja bem vindo a Pítíssa do Zé. Como posso te ajudar?",
-  text: 'Quais ingredientes você gostaria? Temos queijo, atum e calabresa',
+  text: 'Mensagem de exemplo',
   voice: 'pt-BR_IsabelaVoice',
   //voice: 'en-US_AllisonVoice',
   //language: 'pt-BR',
